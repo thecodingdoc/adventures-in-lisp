@@ -10,8 +10,10 @@ TIC TAC TOE
 The game of tic tac toe. The AI of the game implements the minimax algorithm to choose the optimal move.
 To play the game, type the following commands in your Lisp prompt:
 
+```
 > (load "tic-tac-toe.lisp")
 > (play-against-AI)
+```
 
 Enjoy
 
