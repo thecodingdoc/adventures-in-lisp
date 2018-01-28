@@ -15,6 +15,20 @@ To play the game, type the following commands in your Lisp prompt:
 > (play-against-AI)
 ```
 
-Enjoy
+---------------------------------------
+
+SUDOKU SOLVER
+* Files: sudoku-solver.lisp
+         sudoku-example.lisp
+
+A simple breadth-first search sudoku solver.
+Check out the example in sudoku-example.lisp for setting up an input of your own.
+To solve the example, run the following:
+
+```
+> (load "sudoku-solver.lisp")
+> (load "sudoku-example.lisp")
+> (print-board *sudoku-example*)
+> (print-board (solve-sudoku *sudoku-example*))
 
 ---------------------------------------
