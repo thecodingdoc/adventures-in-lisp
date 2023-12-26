@@ -15,6 +15,8 @@ To play the game, type the following commands in your Lisp prompt:
 > (play-against-AI)
 ```
 
+There is also an equivalent version written in Racket Scheme.
+
 ---------------------------------------
 
 SUDOKU SOLVER
